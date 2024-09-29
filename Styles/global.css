@@ -46,13 +46,11 @@
     align-items: center;
     gap: 94px;
     align-self: stretch;
-  
-    background: url(../assets/imagens/Foto-perfil.jpg) lightgray 50% / cover
+
+    background-image: url(../Assets/imagens/Background_Intro.png) lightgray 50% / cover
       no-repeat;
   }
-  
-  
-
+ 
 
 
 
