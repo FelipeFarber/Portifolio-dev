@@ -17,12 +17,41 @@
   --gray-600: #E2E4E9;
 
 
-  --font-family: 'Asap', 'inconsolata', 'Maven Pro';
-  --Title-lg: 56px, 120%, bold var(--font-family);
-  --title-md: 24px, 120% bold var(--font-family);
+  --font-family: "Asap", sans-serif;
+  --font-family-2: "Inconsolata", monospace;
+  --font-family-3: "Maven Pro", sans-serif;
+  /* Fonte: ASAP */
+  --text-lg: 700 56px/120% var(--font-family);
+  --text-md: 700 24px/120% var(--font-family);
+  --text-sm: 700 16px/120% var(--font-family);
+    /* Fonte: Inconsolata */
+    --text-sub: 20px/120% var(--font-family-2);
+      /* Fonte: Maven Pro  */
+  --text-md-maven: 16px/140% var(--font-family-3);
+  --text-sm-maven: 14px/140% var(--font-family-3);
 
 
-
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: var(--gray-200);
+  }
+  #Intro {
+    display: flex;
+    padding: 120px 163px 57px 163px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 94px;
+    align-self: stretch;
+  
+    background: url(../assets/imagens/Foto-perfil.jpg) lightgray 50% / cover
+      no-repeat;
+  }
+  
+  
 
 
 
