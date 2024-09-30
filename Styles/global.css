@@ -36,8 +36,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-color: var(--gray-200);
+   background: url(../Assets/imagens/Background_Intro.png);
   }
+
   #Intro {
     display: flex;
     padding: 120px 163px 57px 163px;
@@ -46,15 +47,6 @@
     align-items: center;
     gap: 94px;
     align-self: stretch;
-
-    background-image: url(../Assets/imagens/Background_Intro.png) lightgray 50% / cover
-      no-repeat;
+    
   }
- 
-
-
-
-
-
-
 }

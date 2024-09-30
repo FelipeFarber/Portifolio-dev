@@ -4,4 +4,54 @@
   flex-direction: column;
   align-items: center;
   gap: 80px;
+
+  header {
+    display: flex;
+    width: 580px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+
+    img {
+      width: 87.273px;
+      height: 87.273px;
+      flex-shrink: 0;
+      border-radius: 999px;
+      border: 3px solid var(--red-color);
+    }
+}
+}
+.tags {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+div {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  background: var(--gray-300);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  p {
+    font: var(--text-sub);
+    color: var(--gray-500);
+  }
+  strong {
+    font: var(--text-sub);
+    color: var(--red-color);
+  }
+
+  h1 {
+    font: var(--text-lg);
+    color: var(--gray-600);
+  }
+
 }
