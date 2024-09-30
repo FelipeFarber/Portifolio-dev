@@ -19,6 +19,7 @@
       border-radius: 999px;
       border: 3px solid var(--red-color);
     }
+
 }
 }
 .tags {
@@ -32,26 +33,36 @@ div {
   justify-content: center;
   align-items: center;
   gap: 9px;
+  border-radius: var(--border-radius-full,999px);
   background: var(--gray-300);
-}
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 9px;
-  align-self: stretch;
+  
   p {
-    font: var(--text-sub);
+    font: var(--text-md-maven);
     color: var(--gray-500);
   }
-  strong {
-    font: var(--text-sub);
-    color: var(--red-color);
-  }
+}
+  .title {
 
-  h1 {
-    font: var(--text-lg);
-    color: var(--gray-600);
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+
+    p {
+      font: var(--text-sub);
+      color: var(--gray-500);
+    }
+
+    h1 {
+      font: var(--text-lg);
+      color: var(--gray-600);
+      
+    }
+
+    strong {
+      font: var(--text-sub);
+      color: var(--red-color);
+    }
 
 }
