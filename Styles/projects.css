@@ -1,0 +1,50 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 120px 144px;
+ 
+
+  header  {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 56px;
+      gap: 8px;
+  }
+
+
+
+  #grid {
+    
+      .card {
+
+          height: 280px;
+          width: 330px;
+          background-color: var(--gray-300);
+          border-radius: 12px;
+          padding: 12px 12px 17px 12px;
+
+          .text {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              padding: 4px;
+              margin-top: 20px;
+
+          }
+          
+          img {
+              width: 306px;
+              height: 156px;
+              border-radius: 8px;
+          }
+      }
+
+      .card:hover {
+          border: 1px solid var(--gray-400);
+      }
+  }
+
+
+}
