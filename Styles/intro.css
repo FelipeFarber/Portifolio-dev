@@ -3,16 +3,15 @@
   flex-direction: column;
   align-items: center;
   height: fit-content;
-  gap: 80px;
-  box-sizing: content-box;
-
+  gap: 90px;
 
 }
 #info {
   display: flex;
   flex-direction: column;
   align-items: center;
- padding: 10%;
+  
+ padding: 120px;
   background: url(/Assets/imagens/Background_Intro.png);
   background-size: cover;
   
