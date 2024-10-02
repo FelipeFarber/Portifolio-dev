@@ -1,9 +1,15 @@
-.info {
+#intro {
   display: flex;
-  width: 1040px;
   flex-direction: column;
   align-items: center;
+  height: fit-content;
   gap: 80px;
+
+  img:nth-child(2) {
+    height: 32px;
+    height: 32px;
+    margin-bottom: 57px;
+}
 
   header {
     display: flex;
