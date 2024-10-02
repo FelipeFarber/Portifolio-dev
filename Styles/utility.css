@@ -1,0 +1,38 @@
+
+.title-sm {
+  font: var(--title-sm);
+}
+.title-md {
+  font: var(--title-md);
+}
+.title-lg {
+  font: var(--title-lg);
+}
+
+.sub {
+  font: var(--sub);
+}
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+.red {
+  color: var(--red);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-3cols {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.gap-24 {
+  gap: 24px;
+}
