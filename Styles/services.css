@@ -1,0 +1,36 @@
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 88px 120px 144px;
+  height: 480px;
+  background-color: var(--gray-100);
+
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 55px;
+    gap: 8px;
+  }
+  
+  .card {
+    display: grid;
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    gap: 20px;
+    width: 280px;
+    padding: 20px;
+
+
+    header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+     margin: 0;
+    } 
+}
+
+
+}
