@@ -37,7 +37,7 @@
     --text-md: 400 16px/140% var(--font-text);
     --text-sm: 400 14px/140% var(--font-text); 
 
-    
+
     body {
       background-color: var(--gray-200);
   }
@@ -45,8 +45,10 @@
     color: var(--gray-600);
 }
 
-p, h4{
+p,h4{
     color: var(--gray-500);
 }
- 
+ h5 {
+ font-size: 1.5rem;
+ }
 }

@@ -21,8 +21,10 @@
 .text-sm {
   font: var(--text-sm);
 }
+
 .red {
   color: var(--red);
+
 }
 
 .grid {

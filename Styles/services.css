@@ -1,10 +1,10 @@
 #services {
   display: flex;
+  padding: 88px 120px 120px 120px;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 88px 120px 144px;
-  height: 480px;
-  background-color: var(--gray-100);
+  align-self: stretch;
 
   header {
     display: flex;
@@ -21,8 +21,13 @@
     gap: 20px;
     width: 280px;
     padding: 20px;
-
-
+    
+    img {
+      box-sizing: border-box;
+      height: 48px;
+      width: 48px;
+    }
+  
     header {
     display: flex;
     flex-direction: column;
