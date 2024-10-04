@@ -20,7 +20,7 @@
   --gray-600: #E2E4E9;
 
   /* font family Asap */
-  --font-title: "Asap", sans-serif;;
+  --font-title: "Asap", sans-serif;
   --title-lg: 800 56px/120% var(--font-title);
   --title-md: 800 24px/120% var(--font-title);
   --title-sm: 800 16px/120% var(--font-title);
@@ -40,15 +40,29 @@
 
     body {
       background-color: var(--gray-200);
-  }
-  h1, h2, h3 {
-    color: var(--gray-600);
-}
 
-p,h4{
-    color: var(--gray-500);
-}
- h5 {
- font-size: 1.5rem;
- }
+      h1, h2, h3 {
+        color: var(--gray-600);
+    }
+    
+    p,h4{
+        color: var(--gray-500);
+    }
+     h5 {
+     font-size: 1.5rem;
+     }
+    }
+    .filter-yellow {
+        filter: brightness(0) saturate(100%) invert(79%) sepia(37%) saturate(644%) hue-rotate(349deg) brightness(96%) contrast(90%);
+    
+    }
+    .filter-purple {
+      filter: brightness(0) saturate(100%) invert(54%) sepia(23%) saturate(1779%) hue-rotate(309deg) brightness(94%) contrast(88%);
+    }
+    .filter-green {
+        filter: brightness(0) saturate(100%) invert(70%) sepia(6%) saturate(4755%) hue-rotate(49deg) brightness(111%) contrast(55%);
+    }
+ 
+
+
 }
